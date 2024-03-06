@@ -54,3 +54,15 @@
   - Setup Mode 
 
 -----------------------------------------------------------------------------
+
+# Part 3:
+
+### Commands:
+
+| Command | Description |  
+ | --- | --- |
+
+#### Points:
+
+###### Siwtches does'nt have NVRAM so they store the config in Flash storage
+ 
