@@ -28,7 +28,6 @@
 
  ---------------------------------------------------------------------
 
-
  
  # Part 2: 
 
@@ -37,3 +36,10 @@
  - Cisco Smart Software Manager (CSSM) ===> Sanctioans
  - Support for Permanent License Reservation (PLR)
  - Support for Specific Reservation (SLR)
+
+### IOS Software Boot Sequence (Routers)
+
+- step 1: POST
+- step 2: copy the bootstrap program from ROM to RAM
+- step 3: Bootstrap chooses the IOS image from Flash (Embeded or External)
+- Step 4: NVRAM Finds Start-up Config and Loads it
