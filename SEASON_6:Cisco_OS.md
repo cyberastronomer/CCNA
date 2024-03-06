@@ -37,9 +37,20 @@
  - Support for Permanent License Reservation (PLR)
  - Support for Specific Reservation (SLR)
 
-### IOS Software Boot Sequence (Routers)
+### IOS Software Boot Sequence (Routers):
 
 - step 1: POST
 - step 2: copy the bootstrap program from ROM to RAM
-- step 3: Bootstrap chooses the IOS image from Flash (Embeded or External)
+- step 3: Bootstrap chooses the IOS image from Flash (Embeded or External) or Network (TFTP)
 - Step 4: NVRAM Finds Start-up Config and Loads it
+
+### IOS Modes:
+- Main:
+  - User EXEX Mode
+  - Privileged EXEC Mode
+  - Global Mode
+- Other
+  - ROM Monitor Mode
+  - Setup Mode 
+
+-----------------------------------------------------------------------------
