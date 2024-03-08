@@ -59,11 +59,15 @@
 
 ### Commands:
 
-| Command | Description |  
- | --- | --- |
- | ? | shows the commands |
-
+| Command | Description | Sohrtened |
+ | --- | --- | --- |
+ | ? | shows the commands | - |
+ | enable | from user mode to privileged | en |
+ | disable | Retuen to User mode | disa | 
+ | configure terminal | from Privileged to Global Config | conf t |
+ 
 #### Points:
 
 ###### Siwtches does'nt have NVRAM so they store the config in Flash storage
+###### In Cisco you can type the command until you find them UNIQUE 
  
