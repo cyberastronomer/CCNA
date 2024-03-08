@@ -10,15 +10,13 @@
  - Cisco NX-OS
  - Cisco IOS XR
 
------------------------------------------------------------------
 #### Other info:
-   POE ====> Power On Ethernet
+         - POE ====> Power On Ethernet
+  
+         - PT Swiches are not real, they are packet tracer
 
-   ###### PT Swiches are not real, they are packet tracer
+         - 3650 Switches have modular Power
 
-   ###### 3650 Switches have modular Power
-
-   ------------------------------------------------------------------
 
 ### Commands:
 
@@ -65,9 +63,12 @@
  | enable | from user mode to privileged | en |
  | disable | Retuen to User mode | disa | 
  | configure terminal | from Privileged to Global Config | conf t |
- 
-#### Points:
+ | eixt | From higher Mode to lower Mode | ex |
+ | ^z or end | from every higher Mode to Privileged Mode |  |
+ | ^R | Refresh: when your command is intrupted | |
 
-###### Siwtches does'nt have NVRAM so they store the config in Flash storage
-###### In Cisco you can type the command until you find them UNIQUE 
+   #### Points:
+
+        - Siwtches does'nt have NVRAM so they store the config in Flash storage
+        - In Cisco you can type the command until you find them UNIQUE 
  
