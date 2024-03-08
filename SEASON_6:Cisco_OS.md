@@ -53,7 +53,7 @@
 
 -----------------------------------------------------------------------------
 
-# Part 3:
+# Part 3 & 4:
 
 ### Commands:
 
@@ -64,15 +64,22 @@
  | disable | Retuen to User mode | - | disa | 
  | configure terminal | from Privileged to Global Config | - | conf t |
  | eixt | From higher Mode to lower Mode | - | ex |
- | ^z | from every higher Mode to Privileged Mode | other form: end | - |
- | ^R | Refresh: when your command is intrupted | - | - |
  | show | it shows sth | Only in Privileged Mode | - | 
  | brief | reduces the details of a command output| - | - |
+ |show ip interface| info about ip interface | Privileged Mode | - |
+ | ^z | from every higher Mode to Privileged Mode | other form: end | - |
+ | ^R | Refresh: when your command is intrupted | - | - |
  | ^u | delete a line | - | - |
  | ^w| delete a word | - | - |
+ | ^a | cursur goes to the beggining of a line | - | - |
+ | ^shift6 | disable dns lookup | - | - |
+ | hostname *** | changes the device name | - | ho |
+ | interface | to go throught some physical interface | - | - |
 
    #### Points:
 
         - Siwtches does'nt have NVRAM so they store the config in Flash storage
         - In Cisco you can type the command until you find them UNIQUE 
+        - Most of the commands are writrn in Global Mode and the result will be cheked in Privileged Mode
  
+-----------------------------------------------------------------------------
