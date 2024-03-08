@@ -66,7 +66,10 @@
  | eixt | From higher Mode to lower Mode | - | ex |
  | ^z | from every higher Mode to Privileged Mode | other form: end | - |
  | ^R | Refresh: when your command is intrupted | - | - |
- | show | it shows sth | Only in Privileged Mode | - |
+ | show | it shows sth | Only in Privileged Mode | - | 
+ | brief | reduces the details of a command output| - | - |
+ | ^u | delete a line | - | - |
+ | ^w| delete a word | - | - |
 
    #### Points:
 
