@@ -57,15 +57,16 @@
 
 ### Commands:
 
-| Command | Description | Sohrtened |
- | --- | --- | --- |
- | ? | shows the commands | - |
- | enable | from user mode to privileged | en |
- | disable | Retuen to User mode | disa | 
- | configure terminal | from Privileged to Global Config | conf t |
- | eixt | From higher Mode to lower Mode | ex |
- | ^z or end | from every higher Mode to Privileged Mode |  |
- | ^R | Refresh: when your command is intrupted | |
+| Command | Description | Specifications | Sohrtened |
+ | --- | --- | --- | --- |
+ | ? | shows the commands | - | - |
+ | enable | from user mode to privileged | - | en |
+ | disable | Retuen to User mode | - | disa | 
+ | configure terminal | from Privileged to Global Config | - | conf t |
+ | eixt | From higher Mode to lower Mode | - | ex |
+ | ^z | from every higher Mode to Privileged Mode | other form: end | - |
+ | ^R | Refresh: when your command is intrupted | - | - |
+ | show | it shows sth | Only in Privileged Mode | - |
 
    #### Points:
 
