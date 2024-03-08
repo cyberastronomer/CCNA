@@ -61,6 +61,7 @@
 
 | Command | Description |  
  | --- | --- |
+ | ? | shows the commands |
 
 #### Points:
 
