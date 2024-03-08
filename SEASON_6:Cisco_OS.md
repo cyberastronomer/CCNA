@@ -73,8 +73,9 @@
  | ^w| delete a word | - | - |
  | ^a | cursur goes to the beggining of a line | - | - |
  | ^shift6 | disable dns lookup | - | - |
- | hostname *** | changes the device name | - | ho |
- | interface | to go throught some physical interface | - | - |
+ | hostname X | changes the device name | - | ho |
+ | interface X | to go throught some physical interface | - | - |
+ | no X | delete some config | - | - |
 
    #### Points:
 
