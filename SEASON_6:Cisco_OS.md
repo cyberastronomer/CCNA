@@ -73,14 +73,26 @@
  | ^w| delete a word | - | - |
  | ^a | cursur goes to the beggining of a line | - | - |
  | ^shift6 | disable dns lookup | - | - |
- | hostname X | changes the device name | - | ho |
+ | hostname X | changes the device name | Global Mode| ho |
  | interface X | to go throught some physical interface | - | - |
  | no X | delete some config | - | - |
+ | copy | :-) |  | privilieged |
+ | reload | restart the system | | |
+ | write memory | copy running-config stsrtup-config | Priviliged | wr|
+ | do | run a privileged mode command in higher MOde| | |
+
+restoring hostname to default: ```no hostname``` global mode
+
+check stsrtup config ` show startup-config `
+
+save the current config ` copy running-config stsrtup-config` Priviliged Mode OR `` write memory`` or `wr`
+
 
    #### Points:
 
         - Siwtches does'nt have NVRAM so they store the config in Flash storage
         - In Cisco you can type the command until you find them UNIQUE 
         - Most of the commands are writrn in Global Mode and the result will be cheked in Privileged Mode
+        - startup config is what is kept in storage but running config lives in ram 
  
 -----------------------------------------------------------------------------
