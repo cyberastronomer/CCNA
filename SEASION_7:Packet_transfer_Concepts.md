@@ -15,10 +15,26 @@
 - ##### Points:
     - Cisco switches stores the new mac address of each interface in some plcae called ``` mac address table ``` which is visible by ```show mac-address-table```
     - Windows devices also store the new mac addresses, visible by ``` arp -a ```
-    - Arp ping ===> layer 2, passing firewall  in order to check if it's blocking the ip or not
-    - Updating Mac Address ===> GARP: announcing new mac address using ARP ===> Update Arp Table: used by hackers
-    - New IP ===> Announcd by ARP: 1- No reply ===> Change 2- reply ===> IP forbidden 3- off PC ===> Dup IP
-    - cleared ARP-Table Switch: switch foolding after an L2 packet: all interfce Boradcast
+    - Arp ping:
+       - ICMP Ping not Working
+       - Chicking if firewall is blocking
+       - L2 Packet Pings using Arp
+       - Firewall passed in reply is available
+         
+    - Updating Mac Address ===> used by hackers
+       - GARP: announcing new mac address using ARP
+       - Devices Update Arp Tables
+       - Mac Address Take Over
+         
+    - New IP ===> Announcd by ARP:
+       - 1- No reply ===> Change
+       - 2- reply ===> IP forbidden
+       -  3- off PC ===> Dup IP
+         
+    - switch foolding: 
+       - cleared ARP-Table in a Switch
+       - an L2 packet having new Mac Address arrives
+       - Switch Boradcast all interfces 
 -----------------------------------------------------------------
 
 ## Senario:
