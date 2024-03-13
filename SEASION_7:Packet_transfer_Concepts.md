@@ -44,6 +44,18 @@
 ## Senario2:
 ![senario](./pic/s1.png)
 
+-----------------------------------------------------------------
+#### Interface config:
 
-------------------------------------------------------------
+- SFP Module: Samall Form Factor Plugable
+- Privileged Mode Commands:
+    - `show ip interface brief`
+    - `show arp`
+- Global Mode Commands:
+    - `interface gigabitetgernet 0/0/0` or `int gig 0/0/0`===> chooses the interface to config
+    - `no shutdown` or `no shut` ===> turn the interface ON
+    - `media-type sfp` ===> difeine that the interface is using fiber       
 
+        
+    
+      
