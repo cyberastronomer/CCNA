@@ -51,10 +51,14 @@
 - Privileged Mode Commands:
     - `show ip interface brief`
     - `show arp`
+    - `show ip route`
 - Global Mode Commands:
     - `interface gigabitetgernet 0/0/0` or `int gig 0/0/0`===> chooses the interface to config
     - `no shutdown` or `no shut` ===> turn the interface ON
-    - `media-type sfp` ===> difeine that the interface is using fiber       
+    - `media-type sfp` ===> difeine that the interface is using fiber
+- Windows command: `trecert {ip}`
+- Detsenation MAC Address will be set to the network edge
+- Default Gateway is the address to communicate with outside network 
 
         
     
