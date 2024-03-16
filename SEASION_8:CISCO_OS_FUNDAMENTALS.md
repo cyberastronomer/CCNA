@@ -30,6 +30,11 @@
 - `# show cdp neighbors {details}`
 - `# no cdp`
 - `(c-if) no cdp enable`
-- to select multiple interfces `interface range fast 0/1 - 24`
+- to select multiple interfces `(c) interface range fast 0/1 - 24`
 
 ---------------------------------------------------------
+
+#### LLDP:
+- `(C) lldp run`
+- `(C) no lldp run`
+- `(C-if) no lldp receive/treansmit`
