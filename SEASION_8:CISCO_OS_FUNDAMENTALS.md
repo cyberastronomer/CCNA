@@ -2,7 +2,7 @@
 
 
 ## Senario 3:
-[senaio](./pic/sena)
+![senaio](./pic/s2.png)
 
 
 
