@@ -12,7 +12,7 @@ line console 0
 !
 exit 
 ```
-
+telnet config
 ```cisco
 
 en
