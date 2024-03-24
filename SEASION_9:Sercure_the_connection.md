@@ -17,6 +17,32 @@
 - by using octal cables we can use router as a terminal
 
 -----------------------------------------------------------------------------------
+
+#### some configs:
+-  default exec-timeout:
+   - no exec-timeout
+   - exec-timeout 0
+- cancel log interrupts: `logging syncronous` 
+
+-----------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```cisco
 enable
 !
