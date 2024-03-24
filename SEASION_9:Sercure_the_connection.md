@@ -1,3 +1,15 @@
+# Sercuring the connection:
+ - choosing the console line: ` (c) line console 0 `
+ - set password `password {pass}`
+ - enable the login process: `(c-line) login ` opposite: `no login`
+ - to see the users: `(#) show user`
+ - hiding the password in config by hash & salt: `(c) service password-encyption` opposite : `no " " "`
+ - to see the config based on console lines: `(#) show run | begin line`
+ - ####  Adding User:
+    - `username admin password {pass}`
+    - enabling authentication for each line : `(c-line) login local `
+
+
 ```cisco
 enable
 !
