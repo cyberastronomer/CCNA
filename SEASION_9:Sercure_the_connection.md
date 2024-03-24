@@ -6,7 +6,8 @@
  - hiding the password in config by hash & salt: `(c) service password-encyption` opposite : `no " " "`
  - to see the config based on console lines: `(#) show run | begin line`
  - ####  Adding User:
-    - `username admin password {pass}`
+    - `(c) username admin password {pass}` or with encrypted pass : `(c) user admin secret {pass} `
+       - entering md5: `(c) user admin secret 5 {hash of pass}`
     - enabling authentication for each line : `(c-line) login local `
 
 
