@@ -10,7 +10,13 @@
        - entering md5: `(c) user admin secret 5 {hash of pass}`
     - enabling authentication for each line : `(c-line) login local `
 
+----------------------------------------------------------------------------------
+### HWIC: High speed Wan Interface:
+![hwic](./pic/hwic.jpg)
 
+- by using octal cables we can use router as a terminal
+
+-----------------------------------------------------------------------------------
 ```cisco
 enable
 !
