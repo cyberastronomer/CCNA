@@ -15,6 +15,7 @@
         - 0: lowest
         - 1: default
         - 2 to 14: configurable
+    - ##### enable password: `(c) enable secret {password}`
 
 ----------------------------------------------------------------------------------
 ### HWIC: High speed Wan Interface:
