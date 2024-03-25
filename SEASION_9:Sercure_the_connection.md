@@ -32,23 +32,28 @@
 - cancel log interrupts: `logging syncronous` 
 
 -----------------------------------------------------------------------------------
+### Enabling Telnet:
+- ##### VTY: Virtual Teletype
+   - `(c) line vty {number}`
+- ##### Telnet steps:
+   - if switch: set ip to vlan interface
+   - enable pass required
+   - `(c) line vty {number or range: 0 11}`
+      - `(c-line) login local`
+   - Add User
+  
+ command: telnet { ip } or { ip }
 
 
+ ##### Limiting telnet:
+ - `transport input ?`
+ - `transport output ?`
 
+##### DNS: 
+- ` ip name-server {ip}`
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----------------------------------------------------------------------------
+#### some configs:
 
 ```cisco
 enable
@@ -64,7 +69,9 @@ line console 0
 !
 exit 
 ```
-telnet config
+
+----------------------------------------------------------------------------------
+
 ```cisco
 
 en
