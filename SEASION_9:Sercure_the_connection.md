@@ -9,6 +9,12 @@
     - `(c) username admin password {pass}` or with encrypted pass : `(c) user admin secret {pass} `
        - entering md5: `(c) user admin secret 5 {hash of pass}`
     - enabling authentication for each line : `(c-line) login local `
+    - privilieged user: `(c) username {name} privilige {level} secret {pass} `
+    - ##### privileges:
+        - 15: full
+        - 0: lowest
+        - 1: default
+        - 2 to 14: configurable
 
 ----------------------------------------------------------------------------------
 ### HWIC: High speed Wan Interface:
