@@ -52,6 +52,17 @@
 ##### DNS: 
 - ` ip name-server {ip}`
 
+----------------------------------------------------------------------------
+### Enabling SSH (Secure Shell):
+- step 1: change hostname
+- step 2: `(c) ip domain-name test.local`
+- step 3: `(c) crypto key generate rsa`
+- step 4: `(c) ip ssh version 2` ---> limiting version
+- step 5: add user
+- step 6: enable secret
+- step 7: `(c) line vty {range: x y}`
+- step 8: `(c-line) login local`
+- step 9: `(c-line) transport input ssh` ----> canceling telnet
 -----------------------------------------------------------------------------
 #### some configs:
 
