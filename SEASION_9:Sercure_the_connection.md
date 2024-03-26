@@ -72,6 +72,18 @@
 - ` (c-r-s) address ipv4 {ip}`
 - `(c-r-s) key {connection key}`
 
+----------------------------------------------------------------------------
+### Banner:
+- enabling:
+   - `(c) banner login`
+   - `(c) banner motd`
+   - `(c) banner exec`
+-----------------------------------------------------------------------------
+ #### Network Time Protocol (NTP):
+ - Works over UDP
+ - `(#) show clock`
+ - `(c) ntp server {ip}`
+ - `(c) ntp master` 
 -----------------------------------------------------------------------------
 #### some configs:
 
