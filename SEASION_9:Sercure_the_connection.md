@@ -65,7 +65,12 @@
 - step 9: `(c-line) transport input ssh` ----> canceling telnet
 -----------------------------------------------------------------------------
 ### AAA:
-
+![s](./pic/aaa.png)
+##### Eanbaling AAA:
+- `(c) aaa new-model`
+- `(c) radius server {name}`
+- ` (c-r-s) address ipv4 {ip}`
+- `(c-r-s) key {connection key}`
 
 -----------------------------------------------------------------------------
 #### some configs:
