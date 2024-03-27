@@ -29,4 +29,10 @@
        - `(c-line) no login local`
     - `wr` OR `copy running-config startup-config `
     - `delete flash:config.text.old`
+- #### Disable Password Recovery:
+    - `(c) no service password-recovery`
+- #### Securing Config and OS Image:
+    - `# secure boot-image`
+    - `# secure boot-config`
+    - `# show secure bootset`
       
