@@ -12,5 +12,21 @@
     - Add User
     - Make enable pass
     - `(c) config-register 0x2102` ---> `do sh version` to check
-  
+- #### Switches:
+    - Power off
+    - Mode button 15s ---> Switch:
+    - switch:
+       - `flash_init`
+    - `dir flash`
+    - `rename flash:config.text flash:config.text.old`
+    - `boot` ----> config not found
+    - `copy flash:running-config`
+       - config.text.old
+          - name: running-config: enter (yes)
+    - `no enable secret`
+    - `no username {user}`
+       - make a user
+       - `(c-line) no login local`
+    - `wr` OR `copy running-config startup-config `
+    - `delete flash:config.text.old`
       
